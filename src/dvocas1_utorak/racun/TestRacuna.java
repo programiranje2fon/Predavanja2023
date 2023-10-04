@@ -23,7 +23,7 @@ public class TestRacuna {
 		System.out.println("Iznos:" + mojRacun.izracunajUkupniIznos());
 		*/		
 		
-		// prikaz racuna pomocu metode prikazi
+		// prikaz racuna pomocu metode ispisi
 		mojRacun.ispisi();
 		
 		// kreiranje i prikaz drugog racuna
