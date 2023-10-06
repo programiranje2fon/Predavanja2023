@@ -10,7 +10,7 @@
 
 # Zadatak 1
 
-Napraviti klasu **Automobil** u paketu **dvocas2_sreda.zadatak1** koja ima:
+Napraviti klasu **Automobil** u paketu **dvocas2_ponedeljak.zadatak1** koja ima:
 
 
 - atribut **marka** koji predstavlja naziv marke automobila.
@@ -24,13 +24,13 @@ Napraviti klasu **Automobil** u paketu **dvocas2_sreda.zadatak1** koja ima:
 
 - Metodu **ispisi** koja na ekranu ispisuje sve podatke o vozilu uz odgovarajući tekst.
 
-Napraviti klasu **TestAutomobil** u paketu **dvocas2_sreda.zadatak1** koja ima main metodu u kojoj se pravi jedan objekta klase Automobil i puni sledećim podacima: "Nissan", "Micra", 1199, 50.5, "NS-567-HH", "Zika Zikic", "benzin". Ispisati na ekranu sve podatke o automobilu.
+Napraviti klasu **TestAutomobil** u paketu **dvocas2_ponedeljak.zadatak1** koja ima main metodu u kojoj se pravi jedan objekta klase Automobil i puni sledećim podacima: "Nissan", "Micra", 1199, 50.5, "NS-567-HH", "Zika Zikic", "benzin". Ispisati na ekranu sve podatke o automobilu.
 
 ## Nabrojivi tip (enum)
 
 **PROBLEM: Postoji ograničen skup vrsta goriva (benzin, dizel, gas, struja). Atribut vrstaGoriva je String pa korisnik može da unese bilo šta. Kako ograničiti unos samo na dozvoljene vrednosti?**
 
-Napraviti nabrojivi tip **TipGoriva** u paketu **dvocas2_sreda.zadatak1** koji ima sledeće instance:
+Napraviti nabrojivi tip **TipGoriva** u paketu **dvocas2_ponedeljak.zadatak1** koji ima sledeće instance:
 
 - BENZIN, DIZEL, GAS, STRUJA **(Nabrojivi tip - enum, instance, Java konvencija o nazivima za instance nabrojivog tipa)**
 
@@ -107,7 +107,7 @@ Svaka asocijacija se definiše preko tri elementa:
 
 
 
-Napraviti klasu **Osoba** u paketu **dvocas2_sreda.zadatak1** koja ima:
+Napraviti klasu **Osoba** u paketu **dvocas2_ponedeljak.zadatak1** koja ima:
 - Atribut **ime**
 - Atribut **prezime**
 - Atribut **jmbg**
