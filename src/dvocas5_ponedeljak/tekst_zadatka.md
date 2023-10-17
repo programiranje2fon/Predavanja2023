@@ -38,14 +38,13 @@ Napraviti klasu **FilmskaPremijera** u paketu **dvocas5_ponedeljak.zadatak2** ko
 
 
 - atribut **nazivFilma**.
-- atribut **datumPremijereAmerika** koji predstavlja datum premijere filma u Americi. Početna vrednost za ovaj atribut je trenutni datum i vreme. **(predstavljanje datuma u Javi, LocalDateTime klasa - [dokumentacija](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html) i LocalDate/LocalTime/ZonedDateTime, import, klase Date i GregorianCalendar, početna vrednost datuma pri inicijalizaciji)**
-- atribut **datumPremijereSvet** koji predstavlja datum premijere filma u ostatku sveta. Početna vrednost za ovaj atribut je 21.3.2022.**(inicijalizacija datuma na konkretne vrednosti)**
+- atribut **datumPremijereSvet** koji predstavlja datum premijere filma u Americi. Početna vrednost za ovaj atribut je trenutni datum i vreme. **(predstavljanje datuma u Javi, LocalDateTime klasa - [dokumentacija](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html) i LocalDate/LocalTime/ZonedDateTime, import, klase Date i GregorianCalendar, inicijalizacija datuma na trenutni datum i vreme - metoda now)**
+- atribut **datumPremijereAmerika** koji predstavlja datum premijere filma u ostatku sveta. Početna vrednost za ovaj atribut je 22.3.2024. u 21:00h**(inicijalizacija datuma na konkretne vrednosti - metoda of i varijante sa metodama with, immutability klase LocalDateTime)**
 
 - metodu **postaviNaziv** koja kao parametar dobija novu vrednost za naziv filma i postavlja atribut nazivFilma na tu vrednost samo ako je uneti naziv različit od null i nije prazan String. Ako uneta vrednost nije u redu, samo se ispisuje poruka o grešci na ekranu.
-- metodu **postaviDatumePremijera** koja ima dva parametra: datum premijere u Americi i datum premijere u ostatku sveta. Ova metoda postavlja unete vrednosti u odgovarajuće atribute, ali samo ako su oba datuma različita od null, i ako se odnose na vremenske trenutke u budućnosti. Ako to nije slučaj, ispisati samo poruku greške.**(before i after metode)**
-- metodu **ispisi** koja na ekranu ispisuje sve podatke o filmskoj premijeri.**(malo lepši ispis datuma, pojedinačno uzimanje polja)**
-- metodu **pomeriPremijere** koja pomera premijere za godinu dana unapred.
-
+- metodu **postaviDatumePremijera** koja ima dva parametra: datum premijere u Americi i datum premijere u ostatku sveta. Ova metoda postavlja unete vrednosti u odgovarajuće atribute, ali samo ako su oba datuma različita od null, i ako se odnose na vremenske trenutke u budućnosti. Ako to nije slučaj, ispisati samo poruku greške.**(isBefore i isAfter metode)**
+- metodu **ispisi** koja na ekranu ispisuje sve podatke o filmskoj premijeri u tri reda, uz propratni tekst i datume formatirane u obliku "DD.MM.GGGG.  hh:mm".**(ručno formatiranje datuma, pojedinačno uzimanje polja - metode getYear, getMonth...)**
+- metodu **pomeriPremijere** koja pomera premijere za godinu dana unapred.**(plus metode)**
 
 
 Napraviti klasu **TestFilmskaPremijera** u paketu **dvocas5_ponedeljak.zadatak2** koja ima main metodu u kojoj pravi objekat klase FilmskaPremijera sa sledećim vrednostima atributa: Addams Familiy 2, 15.11.2021., 16.11.2021.Ispisati na ekranu sve podatke iz objekta.**(Inicijalizacija datuma preko konstruktora i preko set metode)**
