@@ -8,7 +8,7 @@
 Napraviti klasu **Osoba** u paketu **dvocas5_ponedeljak.zadatak1** koja ima:
 
 
-- atribut **ime** koji predstavlja ime osobe. Početna vrednost je "nepoznato".**(Klasa String - [dokumentacija](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html), razlika u odnosu na char[], inicijalizacija String-a, String vrednosti " " i char vrednosti ' ', dokumentacija: )**
+- atribut **ime** koji predstavlja ime osobe. Početna vrednost je "nepoznato".**(Klasa String - [dokumentacija](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html), razlika u odnosu na char[], inicijalizacija String-a, String vrednosti " " i char vrednosti ' ')**
 - atribut **prezime** koji predstavlja prezime osobe. Početna vrednost je "nepoznato".
 - atribut **adresa** koji predstavlja adresu stanovanja osobe u formatu "ULICA;BROJ;GRAD" (npr. "Jove Ilica;154;Beograd").
 
@@ -47,5 +47,5 @@ Napraviti klasu **FilmskaPremijera** u paketu **dvocas5_ponedeljak.zadatak2** ko
 - metodu **pomeriPremijere** koja pomera premijere za godinu dana unapred.**(plus metode)**
 
 
-Napraviti klasu **TestFilmskaPremijera** u paketu **dvocas5_ponedeljak.zadatak2** koja ima main metodu u kojoj pravi objekat klase FilmskaPremijera sa sledećim vrednostima atributa: Addams Familiy 2, 15.11.2021., 16.11.2021.Ispisati na ekranu sve podatke iz objekta.**(Inicijalizacija datuma preko konstruktora i preko set metode)**
+Napraviti klasu **TestFilmskaPremijera** u paketu **dvocas5_ponedeljak.zadatak2** koja ima main metodu u kojoj pravi objekat klase FilmskaPremijera sa sledećim vrednostima atributa: Addams Familiy 2, 15.11.2021., 16.11.2021.Ispisati na ekranu sve podatke iz objekta.
  
