@@ -41,7 +41,7 @@ Napraviti javnu klasu **IspitniSpisak** u paketu **dvocas7_ponedeljak.zadatak1**
 - javnu metodu **ispisi** koja na ekranu ispisuje naziv predmeta i sve studentske podatke iz niza (po jedan red za svakog studenta). **(pristupanje elementima niza, korišćenje toString metode za ispis objekata, varijanta sa forEach petljom)**
 
 
-Napraviti javnu klasu **TestIspitnispisak** u paketu **dvocas7_ponedeljak.zadatak1** koja ima main metodu u kojoj se pravi objekat klase IspitniSpisak za predmet "Programiranje 2" koji je polagalo 8 studenata. Ispisati na ekranu sve podatke iz objekta IspitniSpisak.
+Napraviti javnu klasu **TestIspitnispisak** u paketu **dvocas7_ponedeljak.zadatak1** koja ima main metodu u kojoj se pravi objekat klase IspitniSpisak za predmet "Programiranje 1" koji je polagalo 8 studenata. Ispisati na ekranu sve podatke iz objekta IspitniSpisak.
 
 
 
