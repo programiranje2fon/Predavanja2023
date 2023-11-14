@@ -23,7 +23,7 @@ Napraviti klasu **Osoba** u paketu **dvocas6_ponedeljak.zadatak1.osoba** koja im
 - metodu **ispisi** koja na ekranu ispisuje sve podatke o osobi u jednom redu.
 
 
-Napraviti klasu **TestOsoba** u paketu **dvocas6_ponedeljak.zadatak1.proba** koja ima main metodu i u kojoj se testiraju atributi i metode klase Osoba. Napraviti objekat klase Osoba: Pera Peric, Jove Ilica 154, Beograd. Ispisati na ekranu sve podatke iz objekta. **(objasniti default tj. paketski pristup, objasniti import naredbu)**
+Napraviti klasu **TestOsoba** u paketu **dvocas6_p  onedeljak.zadatak1.proba** koja ima main metodu i u kojoj se testiraju atributi i metode klase Osoba. Napraviti objekat klase Osoba: Pera Peric, Jove Ilica 154, Beograd. Ispisati na ekranu sve podatke iz objekta. **(objasniti default tj. paketski pristup, objasniti import naredbu)**
 
 **Problem: klasi Osoba se ne može pristupiti jer je u drugom paketu**
 
@@ -63,7 +63,7 @@ Izmeniti kod klase **TestOsoba** tako da se pozivaju i metode vratiIme, vratiPre
 
 Napraviti javnu klasu **Student** u paketu **dvocas6_ponedeljak.zadatak1.student** koja ima::
 - privatne atribute **ime, prezime, adresa** ali i **fakultet i prosek**
-- javne metode **postaviIme, postaviPrezime, postaviAdresu, vratiIme, vratiPrezime, vratiAdresu**, ali i **postaviFakultet, vratiFakultet, postaviProsek i vratiProsek**.
+- javne metode **postaviIme, postaviPrezime, postaviAdresu, vratiIme, vratiPrezime, vratiAdresu**, ali i **postaviFakultet, vratiFakultet, postaviProsek i vratiProsek**.  
 
 **Problem: kod iz klase Osoba se velikim delom ponavlja i u klasi Student. NIKADA ne treba ponavljati isti kod na više mesta, misleći tu i na atribute i na metode...**
 
