@@ -48,7 +48,7 @@ Napraviti javnu klasu **EnciklopedijaFilmova** u paketu **dvocas9_ponedeljak.zad
 
 - javnu metodu **dodajFilm** koja kao parametar dobija objekat klase Film koji je potrebno uneti u listu filmovi i to samo ako u listi ne postoji isti film. Ako u listi postoji isti film, ne unositi ga već baciti izuzetak sa odgovarajućom porukom.**(rad sa listama, metode add i contains)**
 - javnu metodu **obrisiFilm** koja kao parametar dobija objekat klase Film koji je potrebno izbrisati iz liste filmovi i to samo ako u listi postoji isti film. Ako u listi ne postoji isti film, ne raditi ništa.**(rad sa listama, metoda remove)**
-- javnu metodu **ispisi** koja kao na ekranu ispisuje sve filmove iz liste filmovi.**(indeksi elemenata liste, prolazak kroz listu element po element, metode size i get, for foreach i iterator verzije metode)**
+- javnu metodu **ispisi** koja na ekranu ispisuje sve filmove iz liste filmovi.**(indeksi elemenata liste, prolazak kroz listu element po element, metode size i get, for foreach i iterator verzije metode)**
 - javnu metodu **pronadjiFilm** koja kao parametar dobija deo naslova filma i na ekranu ispisuje sve filmove iz liste filmovi koji sadrže taj String kao deo naslova.**(for foreach i iterator verzije metode)**
 
 
