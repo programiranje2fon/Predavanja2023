@@ -1,4 +1,4 @@
-# Predavanje 8
+davanje 8
 
 	10.1 Apstraktne klase
 	10.2 Interfejsi
