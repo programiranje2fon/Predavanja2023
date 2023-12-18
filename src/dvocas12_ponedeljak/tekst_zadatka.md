@@ -9,7 +9,8 @@
 Napraviti javnu klasu **Osoba** u paketu **dvocas12_ponedeljak.zadatak1.poslovna_logika** koja ima:
 
 
-- privatni atribut **imePrezime** koji predstavlja ime i prezime osobe.
+- privatni atribut **ime** koji predstavlja ime osobe.
+- privatni atribut **prezime** koji predstavlja prezime osobe.
 - privatni atribut **adresa** koji predstavlja adresu stanovanja osobe.
 - privatni atribut **telefon** koji predstavlja telefon osobe kao ceo broj.
 
@@ -43,4 +44,4 @@ Klasa **ImenikGUI** bi trebalo da ima:
 
 - kada se klikne na dugme **Dodaj**, trebalo bi da se preuzmu podaci iz polja za unos imena, prezimena, adrese i telefona. Onda bi trebalo napraviti nov objeka klase Osoba, napuniti ga ovim podacima, i uneti u listu **osobe**. U slučaju da je nastala neka greška (bačen izuzetak), prikazati dodatni prozor u kojem se ispisuje poruka greške. **(Obrada izuzetaka u GUI-ju, dve radne niti, polu-gotovi prozori - klasa JOptionPane)**
 
-- kada se klikne na dugme **Prikazi**, potrebno je ispisati sve podatke osvim osobama iz liste u editor koji se nalazi na desnoj strani ekrana.
+- kada se klikne na dugme **Prikazi**, potrebno je ispisati sve podatke o svim osobama iz liste u editor koji se nalazi na desnoj strani ekrana.
