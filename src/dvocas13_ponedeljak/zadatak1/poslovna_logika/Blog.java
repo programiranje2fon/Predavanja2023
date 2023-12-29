@@ -6,11 +6,14 @@ import java.io.FileWriter;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.PrintWriter;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+
+import dvocas13_ponedeljak.zadatak1.poslovna_logika.utils.LocalDateTimeTypeAdapter;
 
 public class Blog {
 	
@@ -81,7 +84,7 @@ public class Blog {
 				new PrintWriter(new FileWriter(putanja))){
 			
 			Gson gson = new GsonBuilder().
-					setPrettyPrinting().serializeNulls().create();
+					setPrettyPrinting().serializeNulls().registerTypeAdapter(LocalDateTime.class, new LocalDateTimeTypeAdapter()).create();
 			
 			String json = gson.toJson(postovi);
 			
